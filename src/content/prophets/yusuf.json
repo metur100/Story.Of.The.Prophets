@@ -1,0 +1,212 @@
+{
+  "id": "yusuf",
+  "order": 5,
+  "prophetName": { "en": "Yusuf", "de": "Yusuf (Josef)", "bs": "Jusuf" },
+  "honorific": "alayhis-salam",
+  "title": { "en": "From the Well to the Palace", "de": "Vom Brunnen zum Palast", "bs": "Od bunara do dvora" },
+  "description": {
+    "en": "A dream of stars, a dark well, an unfair prison – and beautiful forgiveness.",
+    "de": "Ein Traum von Sternen, ein dunkler Brunnen, ein ungerechtes Gefängnis – und schöne Vergebung.",
+    "bs": "San o zvijezdama, mračni bunar, nepravedna tamnica – i lijep oprost."
+  },
+  "place": { "en": "Canaan and Egypt", "de": "Kanaan und Ägypten", "bs": "Kanaan i Egipat" },
+  "symbol": "well",
+  "cover": { "sky": "night", "elements": ["stars", "fullMoon", "dunes", "well"] },
+  "intro": {
+    "en": "As a boy, Yusuf (peace be upon him) saw in a dream eleven stars, the sun and the moon prostrating to him. His father, Prophet Yaqub, told him not to tell his brothers.",
+    "de": "Als Junge sah Yusuf (Friede sei mit ihm) im Traum elf Sterne, die Sonne und den Mond, die sich vor ihm niederwarfen. Sein Vater, der Prophet Yaqub, sagte ihm, er solle es seinen Brüdern nicht erzählen.",
+    "bs": "Kao dječak, Jusuf, a.s., sanjao je jedanaest zvijezda, sunce i mjesec kako mu padaju na sedždu. Njegov otac, poslanik Jakub, rekao mu je da to ne priča braći."
+  },
+  "scenes": [
+    {
+      "id": "yusuf-s1",
+      "title": { "en": "The well", "de": "Der Brunnen", "bs": "Bunar" },
+      "text": {
+        "en": "Yusuf's brothers were jealous because their father loved him so much. They took him out with them and made a terrible decision.",
+        "de": "Yusufs Brüder waren neidisch, weil ihr Vater ihn so sehr liebte. Sie nahmen ihn mit und trafen eine schreckliche Entscheidung.",
+        "bs": "Jusufova braća su mu zavidjela jer ga je otac toliko volio. Poveli su ga sa sobom i donijeli strašnu odluku."
+      },
+      "scene": { "sky": "day", "elements": ["dunes", "well"] },
+      "interactionId": "yusuf-next",
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:8–15" }]
+    },
+    {
+      "id": "yusuf-s2",
+      "title": { "en": "A caravan and a prison", "de": "Eine Karawane und ein Gefängnis", "bs": "Karavan i tamnica" },
+      "text": {
+        "en": "A caravan found Yusuf in the well and took him far away, where he was sold. He grew up in a noble household. Yusuf stayed honest and refused to do wrong – yet he was put in prison unjustly. Even in prison, he taught about Allah and explained dreams.",
+        "de": "Eine Karawane fand Yusuf im Brunnen und brachte ihn weit weg, wo er verkauft wurde. Er wuchs in einem vornehmen Haus auf. Yusuf blieb ehrlich und weigerte sich, Unrecht zu tun – dennoch kam er ungerecht ins Gefängnis. Selbst dort lehrte er über Allah und deutete Träume.",
+        "bs": "Karavan je pronašao Jusufa u bunaru i odveo ga daleko, gdje je prodan. Odrastao je u uglednoj kući. Jusuf je ostao iskren i odbio da čini loše – ali je ipak nepravedno bačen u tamnicu. Čak je i tamo poučavao o Allahu i tumačio snove."
+      },
+      "scene": { "sky": "sunset", "elements": ["dunes", "caravan", "city"] },
+      "interactionId": "yusuf-map",
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:19–41" }]
+    },
+    {
+      "id": "yusuf-s3",
+      "title": { "en": "The king's dream", "de": "Der Traum des Königs", "bs": "Kraljev san" },
+      "text": {
+        "en": "The king dreamed of seven fat cows eaten by seven thin cows, and seven green ears of grain and others dry. Yusuf explained it: seven good years, then seven years of drought – so store the grain. The king put Yusuf in charge of the storehouses. When his brothers came to buy food, Yusuf forgave them, and the whole family was reunited.",
+        "de": "Der König träumte von sieben fetten Kühen, die von sieben mageren gefressen wurden, und von sieben grünen Ähren und anderen vertrockneten. Yusuf deutete es: sieben gute Jahre, dann sieben Jahre Dürre – also Getreide lagern. Der König übertrug Yusuf die Vorratskammern. Als seine Brüder kamen, um Nahrung zu kaufen, vergab Yusuf ihnen, und die ganze Familie fand wieder zusammen.",
+        "bs": "Kralj je sanjao sedam debelih krava koje jede sedam mršavih, te sedam zelenih klasova i drugih suhih. Jusuf je protumačio: sedam rodnih godina, zatim sedam sušnih – pa treba sačuvati žito. Kralj je Jusufa postavio nad riznicama. Kada su braća došla kupiti hranu, Jusuf im je oprostio, i cijela porodica se ponovo sastala."
+      },
+      "scene": { "sky": "day", "elements": ["sun", "river", "grain", "city"] },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:43–100" }]
+    }
+  ],
+  "miniGameId": "yusuf-decision",
+  "quizIds": ["yusuf-dream", "yusuf-revenge", "yusuf-lesson"],
+  "lessons": [
+    {
+      "id": "yusuf-l1",
+      "value": "sabr",
+      "title": { "en": "Beautiful patience", "de": "Schöne Geduld", "bs": "Lijepo strpljenje" },
+      "explanation": {
+        "en": "Yusuf faced jealousy, a dark well and an unfair prison, but he stayed patient and honest. His father Yaqub also spoke of \"beautiful patience\" when he lost his son.",
+        "de": "Yusuf erlebte Neid, einen dunklen Brunnen und ein ungerechtes Gefängnis, blieb aber geduldig und ehrlich. Auch sein Vater Yaqub sprach von „schöner Geduld“, als er seinen Sohn verlor.",
+        "bs": "Jusuf je doživio zavist, mračni bunar i nepravednu tamnicu, ali je ostao strpljiv i iskren. I njegov otac Jakub govorio je o „lijepom strpljenju“ kada je izgubio sina."
+      },
+      "example": {
+        "en": "Something unfair happens at school. You stay calm, tell the truth and wait for things to be put right.",
+        "de": "In der Schule passiert etwas Ungerechtes. Du bleibst ruhig, sagst die Wahrheit und wartest, bis es geklärt wird.",
+        "bs": "U školi se desi nešto nepravedno. Ostaneš miran, govoriš istinu i čekaš da se stvari isprave."
+      },
+      "reflection": {
+        "en": "How can you stay patient when something feels unfair?",
+        "de": "Wie kannst du geduldig bleiben, wenn sich etwas ungerecht anfühlt?",
+        "bs": "Kako možeš ostati strpljiv kada ti se nešto čini nepravednim?"
+      }
+    },
+    {
+      "id": "yusuf-l2",
+      "value": "forgiveness",
+      "title": { "en": "Forgiveness is strength", "de": "Vergebung ist Stärke", "bs": "Oprost je snaga" },
+      "explanation": {
+        "en": "When Yusuf became powerful, he could have taken revenge. Instead he told his brothers there was no blame on them that day and prayed that Allah would forgive them.",
+        "de": "Als Yusuf mächtig wurde, hätte er sich rächen können. Stattdessen sagte er seinen Brüdern, dass sie an diesem Tag kein Tadel treffe, und betete, dass Allah ihnen vergebe.",
+        "bs": "Kada je Jusuf postao moćan, mogao se osvetiti. Umjesto toga, rekao je braći da tog dana nema prijekora za njih i molio da im Allah oprosti."
+      },
+      "example": {
+        "en": "A friend broke your toy and says sorry. You forgive them and keep playing together.",
+        "de": "Ein Freund hat dein Spielzeug kaputt gemacht und entschuldigt sich. Du vergibst ihm und ihr spielt weiter zusammen.",
+        "bs": "Prijatelj ti je pokvario igračku i izvinjava se. Oprostiš mu i nastavite se igrati zajedno."
+      },
+      "reflection": {
+        "en": "Is there someone you could forgive today?",
+        "de": "Gibt es jemanden, dem du heute vergeben könntest?",
+        "bs": "Postoji li neko kome bi danas mogao oprostiti?"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "yusuf-next",
+      "type": "multipleChoice",
+      "storyId": "yusuf",
+      "topic": "yusuf",
+      "prompt": { "en": "What do you think the jealous brothers did?", "de": "Was denkst du, taten die neidischen Brüder?", "bs": "Šta misliš, šta su uradila zavidna braća?" },
+      "options": [
+        { "id": "a", "text": { "en": "They threw him into the bottom of a well", "de": "Sie warfen ihn auf den Grund eines Brunnens", "bs": "Bacili su ga na dno bunara" } },
+        { "id": "b", "text": { "en": "They gave him a present", "de": "Sie machten ihm ein Geschenk", "bs": "Dali su mu poklon" } },
+        { "id": "c", "text": { "en": "They made him king", "de": "Sie machten ihn zum König", "bs": "Učinili su ga kraljem" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Out of jealousy they threw Yusuf into a well – but Allah was with him.",
+        "de": "Aus Neid warfen sie Yusuf in einen Brunnen – doch Allah war mit ihm.",
+        "bs": "Iz zavisti su bacili Jusufa u bunar – ali Allah je bio s njim."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:15" }]
+    },
+    {
+      "id": "yusuf-map",
+      "type": "map",
+      "storyId": "yusuf",
+      "topic": "yusuf",
+      "prompt": { "en": "To which land was Yusuf taken? Tap it on the map.", "de": "In welches Land wurde Yusuf gebracht? Tippe es auf der Karte an.", "bs": "U koju zemlju je Jusuf odveden? Dodirni je na mapi." },
+      "places": ["egypt", "makkah", "judi", "madinah"],
+      "correctPlace": "egypt",
+      "explanation": {
+        "en": "Yusuf was taken to Egypt, where he later looked after the storehouses of the land.",
+        "de": "Yusuf wurde nach Ägypten gebracht, wo er später die Vorratskammern des Landes verwaltete.",
+        "bs": "Jusuf je odveden u Egipat, gdje je kasnije upravljao riznicama zemlje."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:21; 12:55" }]
+    },
+    {
+      "id": "yusuf-decision",
+      "type": "scenario",
+      "storyId": "yusuf",
+      "topic": "yusuf",
+      "prompt": {
+        "en": "Decision: a classmate who was mean to you last year now needs help with homework and says sorry. What would Yusuf's example teach you?",
+        "de": "Entscheidung: Ein Mitschüler, der letztes Jahr gemein zu dir war, braucht jetzt Hilfe bei den Hausaufgaben und entschuldigt sich. Was lehrt dich Yusufs Beispiel?",
+        "bs": "Odluka: drug iz razreda koji je prošle godine bio ružan prema tebi sada treba pomoć oko zadaće i izvinjava se. Čemu te uči Jusufov primjer?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Forgive and help", "de": "Vergeben und helfen", "bs": "Oprostiti i pomoći" }, "feedback": { "en": "Just like Yusuf – generous and forgiving.", "de": "Genau wie Yusuf – großzügig und vergebend.", "bs": "Baš kao Jusuf – plemenito i s oprostom." } },
+        { "id": "b", "text": { "en": "Say no and laugh at them", "de": "Nein sagen und ihn auslachen", "bs": "Odbiti i ismijati ga" }, "feedback": { "en": "That would repeat the hurt instead of healing it.", "de": "Das würde den Schmerz wiederholen, statt ihn zu heilen.", "bs": "To bi ponovilo bol umjesto da je izliječi." } },
+        { "id": "c", "text": { "en": "Tell everyone what they did", "de": "Allen erzählen, was er getan hat", "bs": "Svima ispričati šta je uradio" }, "feedback": { "en": "Yusuf did not shame his brothers.", "de": "Yusuf stellte seine Brüder nicht bloß.", "bs": "Jusuf nije sramotio svoju braću." } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Yusuf forgave his brothers when they came to him. Forgiving someone who says sorry follows his beautiful example.",
+        "de": "Yusuf vergab seinen Brüdern, als sie zu ihm kamen. Jemandem zu vergeben, der sich entschuldigt, folgt seinem schönen Beispiel.",
+        "bs": "Jusuf je oprostio braći kada su mu došla. Oprostiti onome ko se izvini slijedi njegov lijepi primjer."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:92" }]
+    },
+    {
+      "id": "yusuf-dream",
+      "type": "multipleChoice",
+      "storyId": "yusuf",
+      "topic": "yusuf",
+      "prompt": { "en": "What did the king's dream mean?", "de": "Was bedeutete der Traum des Königs?", "bs": "Šta je značio kraljev san?" },
+      "options": [
+        { "id": "a", "text": { "en": "Seven good years, then seven years of drought", "de": "Sieben gute Jahre, dann sieben Jahre Dürre", "bs": "Sedam rodnih, pa sedam sušnih godina" } },
+        { "id": "b", "text": { "en": "A big war was coming", "de": "Ein großer Krieg würde kommen", "bs": "Dolazi veliki rat" } },
+        { "id": "c", "text": { "en": "The king would travel far away", "de": "Der König würde weit weg reisen", "bs": "Kralj će otputovati daleko" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Yusuf advised storing grain in the good years for the hard years that followed.",
+        "de": "Yusuf riet, in den guten Jahren Getreide für die harten Jahre danach zu lagern.",
+        "bs": "Jusuf je savjetovao da se u rodnim godinama sačuva žito za teške godine koje slijede."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:43–49" }]
+    },
+    {
+      "id": "yusuf-revenge",
+      "type": "trueFalse",
+      "storyId": "yusuf",
+      "topic": "yusuf",
+      "prompt": { "en": "When Yusuf became powerful, he took revenge on his brothers.", "de": "Als Yusuf mächtig wurde, rächte er sich an seinen Brüdern.", "bs": "Kada je Jusuf postao moćan, osvetio se braći." },
+      "correct": false,
+      "explanation": {
+        "en": "Not quite – he forgave them and prayed that Allah would forgive them.",
+        "de": "Nicht ganz – er vergab ihnen und betete, dass Allah ihnen vergebe.",
+        "bs": "Nije tačno – oprostio im je i molio da im Allah oprosti."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:92" }]
+    },
+    {
+      "id": "yusuf-lesson",
+      "type": "lessonChoice",
+      "storyId": "yusuf",
+      "topic": "yusuf",
+      "prompt": { "en": "Which two values shine in the story of Yusuf?", "de": "Welche zwei Werte leuchten in der Geschichte Yusufs?", "bs": "Koje dvije vrijednosti sijaju u kazivanju o Jusufu?" },
+      "options": [
+        { "id": "a", "text": { "en": "Patience and forgiveness", "de": "Geduld und Vergebung", "bs": "Strpljenje i oprost" } },
+        { "id": "b", "text": { "en": "Jealousy and revenge", "de": "Neid und Rache", "bs": "Zavist i osveta" } },
+        { "id": "c", "text": { "en": "Laziness and boasting", "de": "Faulheit und Angeberei", "bs": "Lijenost i hvalisanje" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Yusuf's sabr through hardship and his forgiveness are a model for us.",
+        "de": "Yusufs Sabr in der Not und seine Vergebung sind ein Vorbild für uns.",
+        "bs": "Jusufov sabur u teškoćama i njegov oprost uzor su nam."
+      }
+    }
+  ],
+  "sources": [{ "sourceName": "Quran", "sourceReference": "Surah Yusuf (12)" }]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "ibrahim",
+  "order": 3,
+  "prophetName": { "en": "Ibrahim", "de": "Ibrahim (Abraham)", "bs": "Ibrahim" },
+  "honorific": "alayhis-salam",
+  "title": { "en": "The Friend of Allah", "de": "Der Freund Allahs", "bs": "Allahov prijatelj" },
+  "description": {
+    "en": "Stars that set, idols that cannot speak, a fire made cool – and the Kaaba.",
+    "de": "Sterne, die untergehen, Götzen, die nicht sprechen, ein kühles Feuer – und die Kaaba.",
+    "bs": "Zvijezde koje zalaze, kipovi koji ne govore, vatra koja postaje hladna – i Kaba."
+  },
+  "place": { "en": "Mesopotamia and Makkah", "de": "Mesopotamien und Mekka", "bs": "Mezopotamija i Mekka" },
+  "symbol": "kaaba",
+  "cover": { "sky": "night", "elements": ["stars", "fullMoon", "dunes", "kaaba"] },
+  "intro": {
+    "en": "Ibrahim (peace be upon him) grew up among people who worshipped idols – even his father Azar. From a young age he searched for the truth.",
+    "de": "Ibrahim (Friede sei mit ihm) wuchs unter Menschen auf, die Götzen anbeteten – sogar sein Vater Azar. Schon jung suchte er nach der Wahrheit.",
+    "bs": "Ibrahim, a.s., odrastao je među ljudima koji su obožavali kipove – čak i njegov otac Azer. Još od mladosti tragao je za istinom."
+  },
+  "scenes": [
+    {
+      "id": "ibrahim-s1",
+      "title": { "en": "Star, moon and sun", "de": "Stern, Mond und Sonne", "bs": "Zvijezda, mjesec i sunce" },
+      "text": {
+        "en": "The Quran describes how Ibrahim pointed to a star, then to the bright moon, then to the sun. Each of them set and disappeared. Ibrahim declared that he turns to the One who created the heavens and the earth.",
+        "de": "Der Koran beschreibt, wie Ibrahim auf einen Stern zeigte, dann auf den hellen Mond, dann auf die Sonne. Jeder von ihnen ging unter und verschwand. Ibrahim erklärte, dass er sich dem zuwendet, der die Himmel und die Erde erschaffen hat.",
+        "bs": "Kur'an opisuje kako je Ibrahim pokazao na zvijezdu, zatim na sjajni mjesec, pa na sunce. Svako od njih je zašlo i nestalo. Ibrahim je izjavio da se okreće Onome koji je stvorio nebesa i Zemlju."
+      },
+      "scene": { "sky": "night", "elements": ["stars", "fullMoon", "dunes"] },
+      "interactionId": "ibrahim-sky",
+      "sources": [{ "sourceName": "Quran", "sourceReference": "6:74–79" }]
+    },
+    {
+      "id": "ibrahim-s2",
+      "title": { "en": "The idols and the fire", "de": "Die Götzen und das Feuer", "bs": "Kipovi i vatra" },
+      "text": {
+        "en": "Ibrahim broke the idols, leaving only the biggest one. When the people asked who had done it, he told them to ask the idols – if they could speak. The people knew idols cannot speak. Still, they threw Ibrahim into a great fire. But Allah commanded the fire to be cool and safe for Ibrahim.",
+        "de": "Ibrahim zerbrach die Götzen und ließ nur den größten stehen. Als die Leute fragten, wer das getan habe, sagte er, sie sollten die Götzen fragen – wenn sie sprechen könnten. Die Leute wussten, dass Götzen nicht sprechen können. Trotzdem warfen sie Ibrahim in ein großes Feuer. Doch Allah befahl dem Feuer, kühl und sicher für Ibrahim zu sein.",
+        "bs": "Ibrahim je razbio kipove, ostavivši samo najvećeg. Kada su ljudi pitali ko je to uradio, rekao im je da pitaju kipove – ako mogu govoriti. Ljudi su znali da kipovi ne govore. Ipak su Ibrahima bacili u veliku vatru. Ali Allah je naredio vatri da bude hladna i spasonosna za Ibrahima."
+      },
+      "scene": { "sky": "dusk", "elements": ["fire", "city"] },
+      "interactionId": "ibrahim-fire",
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:57–70" }]
+    },
+    {
+      "id": "ibrahim-s3",
+      "title": { "en": "Building the Kaaba", "de": "Der Bau der Kaaba", "bs": "Gradnja Kabe" },
+      "text": {
+        "en": "Years later, in the valley of Makkah, Ibrahim and his son Ismail raised the foundations of the House – the Kaaba – and prayed: may Allah accept it from them.",
+        "de": "Jahre später errichteten Ibrahim und sein Sohn Ismail im Tal von Mekka die Grundmauern des Hauses – der Kaaba – und beteten, dass Allah es von ihnen annehme.",
+        "bs": "Godinama kasnije, u dolini Mekke, Ibrahim i njegov sin Ismail podigli su temelje Kuće – Kabe – i molili da to Allah od njih primi."
+      },
+      "scene": { "sky": "sunset", "elements": ["mountains", "kaaba"] },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:127–129; 14:37" }]
+    }
+  ],
+  "miniGameId": "ibrahim-memory",
+  "quizIds": ["ibrahim-map", "ibrahim-ismail", "ibrahim-lesson"],
+  "lessons": [
+    {
+      "id": "ibrahim-l1",
+      "value": "tawhid",
+      "title": { "en": "Tawhid – Allah is One", "de": "Tawhid – Allah ist Einer", "bs": "Tevhid – Allah je Jedan" },
+      "explanation": {
+        "en": "Only Allah, the Creator, deserves worship. Ibrahim used clear thinking to show that things which set or cannot speak cannot be God.",
+        "de": "Nur Allah, der Schöpfer, verdient Anbetung. Ibrahim zeigte mit klarem Denken, dass Dinge, die untergehen oder nicht sprechen können, nicht Gott sein können.",
+        "bs": "Samo Allah, Stvoritelj, zaslužuje ibadet. Ibrahim je jasnim razmišljanjem pokazao da ono što zalazi ili ne može govoriti ne može biti Bog."
+      },
+      "example": {
+        "en": "When you see the stars at night, you say \"Subhanallah\" and remember the One who created them.",
+        "de": "Wenn du nachts die Sterne siehst, sagst du „Subhanallah“ und denkst an den, der sie erschaffen hat.",
+        "bs": "Kada noću vidiš zvijezde, kažeš „Subhanallah“ i sjetiš se Onoga koji ih je stvorio."
+      },
+      "reflection": {
+        "en": "Which signs of Allah's creation amaze you the most?",
+        "de": "Welche Zeichen der Schöpfung Allahs beeindrucken dich am meisten?",
+        "bs": "Koji te znakovi Allahovog stvaranja najviše oduševljavaju?"
+      }
+    },
+    {
+      "id": "ibrahim-l2",
+      "value": "tawakkul",
+      "title": { "en": "Courage and trust", "de": "Mut und Vertrauen", "bs": "Hrabrost i povjerenje" },
+      "explanation": {
+        "en": "Ibrahim stood for the truth, wisely and bravely, and trusted Allah completely – and Allah protected him.",
+        "de": "Ibrahim stand klug und mutig für die Wahrheit ein und vertraute Allah vollkommen – und Allah beschützte ihn.",
+        "bs": "Ibrahim se mudro i hrabro zalagao za istinu i potpuno se oslonio na Allaha – a Allah ga je zaštitio."
+      },
+      "example": {
+        "en": "Classmates want to cheat in a test. You politely say no and trust that honest work is better.",
+        "de": "Mitschüler wollen bei einem Test schummeln. Du sagst höflich Nein und vertraust darauf, dass ehrliche Arbeit besser ist.",
+        "bs": "Drugovi iz razreda žele prepisivati na testu. Ti pristojno odbiješ i vjeruješ da je pošten rad bolji."
+      },
+      "reflection": {
+        "en": "When do you need courage to do what is right?",
+        "de": "Wann brauchst du Mut, um das Richtige zu tun?",
+        "bs": "Kada ti je potrebna hrabrost da uradiš ispravno?"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "ibrahim-sky",
+      "type": "multipleChoice",
+      "storyId": "ibrahim",
+      "topic": "ibrahim",
+      "prompt": {
+        "en": "The star, the moon and the sun all set. What was Ibrahim showing his people?",
+        "de": "Stern, Mond und Sonne gingen alle unter. Was wollte Ibrahim seinem Volk zeigen?",
+        "bs": "Zvijezda, mjesec i sunce svi su zašli. Šta je Ibrahim pokazivao svom narodu?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "That they cannot be God, because they disappear", "de": "Dass sie nicht Gott sein können, weil sie verschwinden", "bs": "Da ne mogu biti Bog, jer nestaju" } },
+        { "id": "b", "text": { "en": "That they should be worshipped", "de": "Dass man sie anbeten sollte", "bs": "Da im treba robovati" } },
+        { "id": "c", "text": { "en": "That the night is scary", "de": "Dass die Nacht unheimlich ist", "bs": "Da je noć strašna" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Everything that sets is created. Ibrahim turned to the Creator of the heavens and the earth.",
+        "de": "Alles, was untergeht, ist erschaffen. Ibrahim wandte sich dem Schöpfer der Himmel und der Erde zu.",
+        "bs": "Sve što zalazi je stvoreno. Ibrahim se okrenuo Stvoritelju nebesa i Zemlje."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "6:76–79" }]
+    },
+    {
+      "id": "ibrahim-fire",
+      "type": "multipleChoice",
+      "storyId": "ibrahim",
+      "topic": "ibrahim",
+      "prompt": { "en": "What did Allah command the fire?", "de": "Was befahl Allah dem Feuer?", "bs": "Šta je Allah naredio vatri?" },
+      "options": [
+        { "id": "a", "text": { "en": "To be cool and safe for Ibrahim", "de": "Kühl und sicher für Ibrahim zu sein", "bs": "Da bude hladna i spasonosna za Ibrahima" } },
+        { "id": "b", "text": { "en": "To burn even stronger", "de": "Noch stärker zu brennen", "bs": "Da gori još jače" } },
+        { "id": "c", "text": { "en": "To move to another town", "de": "In eine andere Stadt zu ziehen", "bs": "Da se preseli u drugi grad" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Allah commanded: be coolness and safety for Ibrahim – and the fire did not harm him.",
+        "de": "Allah befahl: Sei Kühlung und Sicherheit für Ibrahim – und das Feuer schadete ihm nicht.",
+        "bs": "Allah je naredio: budi hladna i spas Ibrahimu – i vatra mu nije naškodila."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:69" }]
+    },
+    {
+      "id": "ibrahim-memory",
+      "type": "memory",
+      "storyId": "ibrahim",
+      "topic": "ibrahim",
+      "prompt": { "en": "Memory: match each part of Ibrahim's story.", "de": "Memory: Ordne die Teile der Geschichte Ibrahims zu.", "bs": "Memorija: spoji dijelove kazivanja o Ibrahimu." },
+      "pairs": [
+        { "id": "fire", "left": { "en": "The fire", "de": "Das Feuer", "bs": "Vatra" }, "right": { "en": "Cool and safe", "de": "Kühl und sicher", "bs": "Hladna i spasonosna" } },
+        { "id": "idols", "left": { "en": "The idols", "de": "Die Götzen", "bs": "Kipovi" }, "right": { "en": "Cannot speak", "de": "Können nicht sprechen", "bs": "Ne mogu govoriti" } },
+        { "id": "kaaba", "left": { "en": "The Kaaba", "de": "Die Kaaba", "bs": "Kaba" }, "right": { "en": "Built with Ismail", "de": "Mit Ismail gebaut", "bs": "Sagrađena s Ismailom" } },
+        { "id": "sky", "left": { "en": "Star, moon, sun", "de": "Stern, Mond, Sonne", "bs": "Zvijezda, mjesec, sunce" }, "right": { "en": "They all set", "de": "Sie gehen unter", "bs": "Svi zalaze" } }
+      ],
+      "explanation": {
+        "en": "The fire became cool, the idols could not speak, the Kaaba was built with Ismail, and the star, moon and sun all set.",
+        "de": "Das Feuer wurde kühl, die Götzen konnten nicht sprechen, die Kaaba wurde mit Ismail gebaut, und Stern, Mond und Sonne gingen unter.",
+        "bs": "Vatra je postala hladna, kipovi nisu mogli govoriti, Kaba je sagrađena s Ismailom, a zvijezda, mjesec i sunce su zašli."
+      }
+    },
+    {
+      "id": "ibrahim-map",
+      "type": "map",
+      "storyId": "ibrahim",
+      "topic": "ibrahim",
+      "prompt": { "en": "Where did Ibrahim and Ismail build the Kaaba? Tap the place.", "de": "Wo bauten Ibrahim und Ismail die Kaaba? Tippe auf den Ort.", "bs": "Gdje su Ibrahim i Ismail sagradili Kabu? Dodirni mjesto." },
+      "places": ["makkah", "egypt", "jerusalem", "mesopotamia"],
+      "correctPlace": "makkah",
+      "explanation": {
+        "en": "The Kaaba stands in Makkah. Muslims all over the world face it in prayer.",
+        "de": "Die Kaaba steht in Mekka. Muslime auf der ganzen Welt richten sich beim Gebet nach ihr aus.",
+        "bs": "Kaba se nalazi u Mekki. Muslimani širom svijeta okreću se prema njoj u namazu."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:127; 3:96" }]
+    },
+    {
+      "id": "ibrahim-ismail",
+      "type": "trueFalse",
+      "storyId": "ibrahim",
+      "topic": "ibrahim",
+      "prompt": { "en": "Ibrahim's son Ismail helped him raise the foundations of the Kaaba.", "de": "Ibrahims Sohn Ismail half ihm, die Grundmauern der Kaaba zu errichten.", "bs": "Ibrahimov sin Ismail pomogao mu je podići temelje Kabe." },
+      "correct": true,
+      "explanation": {
+        "en": "Yes – Ibrahim and Ismail raised the foundations together and asked Allah to accept it.",
+        "de": "Ja – Ibrahim und Ismail errichteten die Grundmauern gemeinsam und baten Allah, es anzunehmen.",
+        "bs": "Da – Ibrahim i Ismail zajedno su podigli temelje i zamolili Allaha da to primi."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:127" }]
+    },
+    {
+      "id": "ibrahim-lesson",
+      "type": "lessonChoice",
+      "storyId": "ibrahim",
+      "topic": "ibrahim",
+      "prompt": { "en": "Which lesson does Ibrahim teach us?", "de": "Welche Lehre lehrt uns Ibrahim?", "bs": "Koju nas pouku uči Ibrahim?" },
+      "options": [
+        { "id": "a", "text": { "en": "Worship Allah alone and trust Him", "de": "Allah allein anbeten und Ihm vertrauen", "bs": "Robovati samo Allahu i osloniti se na Njega" } },
+        { "id": "b", "text": { "en": "Follow the crowd, whatever they do", "de": "Der Menge folgen, egal was sie tut", "bs": "Slijediti mnoštvo, šta god radili" } },
+        { "id": "c", "text": { "en": "Stay quiet about the truth", "de": "Über die Wahrheit schweigen", "bs": "Šutjeti o istini" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Ibrahim's story is about Tawhid, courage and complete trust in Allah.",
+        "de": "Ibrahims Geschichte handelt von Tawhid, Mut und vollkommenem Vertrauen auf Allah.",
+        "bs": "Kazivanje o Ibrahimu govori o tevhidu, hrabrosti i potpunom oslanjanju na Allaha."
+      }
+    }
+  ],
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "6:74–83" },
+    { "sourceName": "Quran", "sourceReference": "21:51–70" },
+    { "sourceName": "Quran", "sourceReference": "2:124–129" },
+    { "sourceName": "Quran", "sourceReference": "14:35–41" }
+  ]
+}

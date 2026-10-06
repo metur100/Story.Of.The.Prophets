@@ -1,0 +1,223 @@
+{
+  "id": "nuh",
+  "order": 2,
+  "prophetName": { "en": "Nuh", "de": "Nuh (Noah)", "bs": "Nuh" },
+  "honorific": "alayhis-salam",
+  "title": { "en": "The Great Ark", "de": "Die große Arche", "bs": "Velika lađa" },
+  "description": {
+    "en": "Centuries of calling to good, an ark built while others mocked, and a great flood.",
+    "de": "Jahrhunderte des Aufrufs zum Guten, eine Arche, gebaut unter Spott, und eine große Flut.",
+    "bs": "Stoljeća pozivanja dobru, lađa građena uz ruganje i veliki potop."
+  },
+  "place": { "en": "A land of rivers – and Mount Judi", "de": "Ein Land der Flüsse – und der Berg Dschudi", "bs": "Zemlja rijeka – i brdo Džudi" },
+  "symbol": "ark",
+  "cover": { "sky": "storm", "elements": ["rain", "waves", "ark", "mountains"] },
+  "intro": {
+    "en": "Nuh (peace be upon him) was sent to a people who worshipped idols. He called them to worship Allah alone – by day and by night, openly and in private.",
+    "de": "Nuh (Friede sei mit ihm) wurde zu einem Volk gesandt, das Götzen anbetete. Er rief sie auf, Allah allein anzubeten – bei Tag und bei Nacht, öffentlich und im Stillen.",
+    "bs": "Nuh, a.s., poslan je narodu koji je obožavao kipove. Pozivao ih je da robuju samo Allahu – danju i noću, javno i tajno."
+  },
+  "scenes": [
+    {
+      "id": "nuh-s1",
+      "title": { "en": "A very long call", "de": "Ein sehr langer Aufruf", "bs": "Veoma dugo pozivanje" },
+      "text": {
+        "en": "Nuh stayed among his people for a thousand years minus fifty – 950 years. He never gave up, but only a few believed.",
+        "de": "Nuh blieb tausend Jahre weniger fünfzig unter seinem Volk – 950 Jahre. Er gab nie auf, doch nur wenige glaubten.",
+        "bs": "Nuh je u svom narodu boravio hiljadu godina manje pedeset – 950 godina. Nikad nije odustao, ali je samo malo njih povjerovalo."
+      },
+      "scene": { "sky": "dusk", "elements": ["stars", "hills", "city"] },
+      "interactionId": "nuh-next",
+      "sources": [{ "sourceName": "Quran", "sourceReference": "29:14; 11:40; 71:5–9" }]
+    },
+    {
+      "id": "nuh-s2",
+      "title": { "en": "Building the ark", "de": "Der Bau der Arche", "bs": "Gradnja lađe" },
+      "text": {
+        "en": "Allah commanded Nuh to build an ark under His watch. Every time the leaders of his people passed by, they mocked him – but Nuh kept building.",
+        "de": "Allah befahl Nuh, unter Seiner Aufsicht eine Arche zu bauen. Jedes Mal, wenn die Anführer seines Volkes vorbeikamen, verspotteten sie ihn – doch Nuh baute weiter.",
+        "bs": "Allah je naredio Nuhu da pod Njegovim nadzorom gradi lađu. Kad god bi glavešine njegova naroda prolazile pored njega, rugale su mu se – ali Nuh je nastavio graditi."
+      },
+      "scene": { "sky": "day", "elements": ["clouds", "hills", "ark"] },
+      "interactionId": "nuh-mocked",
+      "sources": [{ "sourceName": "Quran", "sourceReference": "11:37–38" }]
+    },
+    {
+      "id": "nuh-s3",
+      "title": { "en": "The flood", "de": "Die Flut", "bs": "Potop" },
+      "text": {
+        "en": "Then water poured from the sky and burst from the earth. Nuh carried the believers and a pair of every kind of animal in the ark. The ark sailed on waves like mountains, until it came to rest on Mount Judi.",
+        "de": "Dann strömte Wasser vom Himmel und brach aus der Erde hervor. Nuh nahm die Gläubigen und ein Paar von jeder Tierart in die Arche. Die Arche fuhr auf Wellen wie Berge, bis sie auf dem Berg Dschudi zur Ruhe kam.",
+        "bs": "Tada je voda pljuštala s neba i izbijala iz zemlje. Nuh je u lađu ukrcao vjernike i po par od svake vrste životinja. Lađa je plovila po valovima poput brda, dok se nije zaustavila na brdu Džudi."
+      },
+      "scene": { "sky": "storm", "elements": ["rain", "waves", "ark", "mountains"] },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "54:11–13; 11:40–44" }]
+    }
+  ],
+  "miniGameId": "nuh-find",
+  "quizIds": ["nuh-judi", "nuh-years", "nuh-lesson"],
+  "lessons": [
+    {
+      "id": "nuh-l1",
+      "value": "sabr",
+      "title": { "en": "Sabr – staying firm", "de": "Sabr – standhaft bleiben", "bs": "Sabur – istrajnost" },
+      "explanation": {
+        "en": "Nuh kept calling people to good for 950 years. Sabr means not giving up on what is right, even when it takes a long time.",
+        "de": "Nuh rief 950 Jahre lang zum Guten auf. Sabr bedeutet, das Richtige nicht aufzugeben, auch wenn es lange dauert.",
+        "bs": "Nuh je 950 godina pozivao ljude dobru. Sabur znači ne odustati od ispravnog, čak i kada dugo traje."
+      },
+      "example": {
+        "en": "Learning a new surah is hard. You practise a little every day instead of giving up after one try.",
+        "de": "Eine neue Sure zu lernen ist schwer. Du übst jeden Tag ein bisschen, statt nach einem Versuch aufzugeben.",
+        "bs": "Učiti novu suru je teško. Vježbaš pomalo svaki dan, umjesto da odustaneš nakon prvog pokušaja."
+      },
+      "reflection": {
+        "en": "What is something you want to keep trying, even if it is hard?",
+        "de": "Was möchtest du weiter versuchen, auch wenn es schwer ist?",
+        "bs": "Šta je to što želiš nastaviti pokušavati, iako je teško?"
+      }
+    },
+    {
+      "id": "nuh-l2",
+      "value": "obedience",
+      "title": { "en": "Obeying Allah when others laugh", "de": "Allah gehorchen, auch wenn andere lachen", "bs": "Pokornost Allahu i kad se drugi smiju" },
+      "explanation": {
+        "en": "Nuh built the ark because Allah commanded it, even though people mocked him. Doing what is right matters more than what others say.",
+        "de": "Nuh baute die Arche, weil Allah es befahl, obwohl die Leute ihn verspotteten. Das Richtige zu tun ist wichtiger als das Gerede anderer.",
+        "bs": "Nuh je gradio lađu jer je Allah tako naredio, iako su mu se ljudi rugali. Činiti ispravno važnije je od onoga što drugi govore."
+      },
+      "example": {
+        "en": "Friends laugh because you go to pray. You smile and go anyway – kindly and confidently.",
+        "de": "Freunde lachen, weil du beten gehst. Du lächelst und gehst trotzdem – freundlich und selbstbewusst.",
+        "bs": "Prijatelji se smiju jer ideš klanjati. Nasmiješiš se i ipak odeš – ljubazno i samouvjereno."
+      },
+      "reflection": {
+        "en": "When was it hard for you to do the right thing in front of others?",
+        "de": "Wann fiel es dir schwer, vor anderen das Richtige zu tun?",
+        "bs": "Kada ti je bilo teško uraditi ispravnu stvar pred drugima?"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "nuh-next",
+      "type": "multipleChoice",
+      "storyId": "nuh",
+      "topic": "nuh",
+      "prompt": {
+        "en": "Only a few believed. What do you think Allah commanded Nuh to do?",
+        "de": "Nur wenige glaubten. Was denkst du, befahl Allah Nuh zu tun?",
+        "bs": "Samo malo njih je povjerovalo. Šta misliš, šta je Allah naredio Nuhu?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "To build an ark", "de": "Eine Arche zu bauen", "bs": "Da napravi lađu" } },
+        { "id": "b", "text": { "en": "To build a tower", "de": "Einen Turm zu bauen", "bs": "Da napravi kulu" } },
+        { "id": "c", "text": { "en": "To dig a well", "de": "Einen Brunnen zu graben", "bs": "Da iskopa bunar" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Allah commanded Nuh to build the ark under His watch and guidance.",
+        "de": "Allah befahl Nuh, die Arche unter Seiner Aufsicht und Anleitung zu bauen.",
+        "bs": "Allah je naredio Nuhu da pravi lađu pod Njegovim nadzorom i uputom."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "11:37" }]
+    },
+    {
+      "id": "nuh-mocked",
+      "type": "trueFalse",
+      "storyId": "nuh",
+      "topic": "nuh",
+      "prompt": {
+        "en": "When the leaders passed by Nuh building the ark, they mocked him.",
+        "de": "Als die Anführer an Nuh vorbeikamen, der die Arche baute, verspotteten sie ihn.",
+        "bs": "Kada su glavešine prolazile pored Nuha dok je gradio lađu, rugale su mu se."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "Yes – they mocked him, but Nuh continued to obey Allah.",
+        "de": "Ja – sie verspotteten ihn, aber Nuh gehorchte Allah weiter.",
+        "bs": "Da – rugali su mu se, ali Nuh se nastavio pokoravati Allahu."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "11:38" }]
+    },
+    {
+      "id": "nuh-find",
+      "type": "find",
+      "storyId": "nuh",
+      "topic": "nuh",
+      "prompt": {
+        "en": "Find the three things that belong to the story of Nuh.",
+        "de": "Finde die drei Dinge, die zur Geschichte Nuhs gehören.",
+        "bs": "Pronađi tri stvari koje pripadaju kazivanju o Nuhu."
+      },
+      "items": [
+        { "id": "ark", "element": "ark", "label": { "en": "Ark", "de": "Arche", "bs": "Lađa" } },
+        { "id": "rain", "element": "rain", "label": { "en": "Pouring rain", "de": "Strömender Regen", "bs": "Pljusak" } },
+        { "id": "well", "element": "well", "label": { "en": "Well", "de": "Brunnen", "bs": "Bunar" } },
+        { "id": "waves", "element": "waves", "label": { "en": "Great waves", "de": "Große Wellen", "bs": "Veliki valovi" } },
+        { "id": "kaaba", "element": "kaaba", "label": { "en": "Kaaba", "de": "Kaaba", "bs": "Kaba" } },
+        { "id": "palms", "element": "palms", "label": { "en": "Palm trees", "de": "Palmen", "bs": "Palme" } }
+      ],
+      "correctIds": ["ark", "rain", "waves"],
+      "explanation": {
+        "en": "The ark, the pouring rain and the great waves are part of Nuh's story. The well belongs to Yusuf, the Kaaba to Ibrahim.",
+        "de": "Die Arche, der strömende Regen und die großen Wellen gehören zur Geschichte Nuhs. Der Brunnen gehört zu Yusuf, die Kaaba zu Ibrahim.",
+        "bs": "Lađa, pljusak i veliki valovi dio su kazivanja o Nuhu. Bunar pripada Jusufu, a Kaba Ibrahimu."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "11:37–44; 54:11–13" }]
+    },
+    {
+      "id": "nuh-judi",
+      "type": "map",
+      "storyId": "nuh",
+      "topic": "nuh",
+      "prompt": { "en": "Tap the place where the ark came to rest.", "de": "Tippe auf den Ort, an dem die Arche zur Ruhe kam.", "bs": "Dodirni mjesto gdje se lađa zaustavila." },
+      "places": ["judi", "egypt", "makkah", "jerusalem"],
+      "correctPlace": "judi",
+      "explanation": {
+        "en": "The Quran says the ark came to rest on Al-Judi. Muslim scholars traditionally place this mountain in the north of Mesopotamia.",
+        "de": "Der Koran sagt, dass die Arche auf dem Dschudi zur Ruhe kam. Muslimische Gelehrte verorten diesen Berg traditionell im Norden Mesopotamiens.",
+        "bs": "Kur'an kaže da se lađa zaustavila na Džudiju. Muslimanski učenjaci tradicionalno smještaju to brdo na sjever Mezopotamije."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "11:44" }]
+    },
+    {
+      "id": "nuh-years",
+      "type": "trueFalse",
+      "storyId": "nuh",
+      "topic": "nuh",
+      "prompt": { "en": "Nuh called his people for only a few days.", "de": "Nuh rief sein Volk nur ein paar Tage lang auf.", "bs": "Nuh je pozivao svoj narod samo nekoliko dana." },
+      "correct": false,
+      "explanation": {
+        "en": "Not quite – he stayed among them a thousand years minus fifty: 950 years.",
+        "de": "Nicht ganz – er blieb tausend Jahre weniger fünfzig unter ihnen: 950 Jahre.",
+        "bs": "Nije tačno – boravio je među njima hiljadu godina manje pedeset: 950 godina."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "29:14" }]
+    },
+    {
+      "id": "nuh-lesson",
+      "type": "lessonChoice",
+      "storyId": "nuh",
+      "topic": "nuh",
+      "prompt": { "en": "Which lesson do we learn from Nuh?", "de": "Welche Lehre lernen wir von Nuh?", "bs": "Koju pouku učimo od Nuha?" },
+      "options": [
+        { "id": "a", "text": { "en": "Keep doing good with patience, even when it takes long", "de": "Mit Geduld weiter Gutes tun, auch wenn es lange dauert", "bs": "Strpljivo nastaviti činiti dobro, čak i kad dugo traje" } },
+        { "id": "b", "text": { "en": "Give up when people laugh at you", "de": "Aufgeben, wenn Leute über dich lachen", "bs": "Odustati kad ti se ljudi smiju" } },
+        { "id": "c", "text": { "en": "Only do good when everyone agrees", "de": "Nur Gutes tun, wenn alle zustimmen", "bs": "Činiti dobro samo kad se svi slažu" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Nuh's sabr and obedience are an example for every believer.",
+        "de": "Nuhs Sabr und Gehorsam sind ein Vorbild für jeden Gläubigen.",
+        "bs": "Nuhov sabur i pokornost primjer su svakom vjerniku."
+      }
+    }
+  ],
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "11:25–48" },
+    { "sourceName": "Quran", "sourceReference": "29:14–15" },
+    { "sourceName": "Quran", "sourceReference": "54:9–15" },
+    { "sourceName": "Quran", "sourceReference": "Surah Nuh (71)" }
+  ]
+}

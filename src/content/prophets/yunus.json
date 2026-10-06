@@ -1,0 +1,215 @@
+{
+  "id": "yunus",
+  "order": 6,
+  "prophetName": { "en": "Yunus", "de": "Yunus (Jona)", "bs": "Junus" },
+  "honorific": "alayhis-salam",
+  "title": { "en": "Light in the Darkness", "de": "Licht in der Dunkelheit", "bs": "Svjetlo u tami" },
+  "description": {
+    "en": "A loaded ship, a big fish and a heartfelt dua in the darkness.",
+    "de": "Ein beladenes Schiff, ein großer Fisch und ein aufrichtiges Du'a in der Dunkelheit.",
+    "bs": "Krcata lađa, velika riba i iskrena dova u tami."
+  },
+  "place": { "en": "A great town and the sea", "de": "Eine große Stadt und das Meer", "bs": "Veliki grad i more" },
+  "symbol": "whale",
+  "cover": { "sky": "sea", "elements": ["waves", "whale"] },
+  "intro": {
+    "en": "Yunus (peace be upon him) was sent to a people of a hundred thousand or more. When they did not believe at first, he left them in anger.",
+    "de": "Yunus (Friede sei mit ihm) wurde zu einem Volk von hunderttausend oder mehr gesandt. Als sie zunächst nicht glaubten, verließ er sie im Zorn.",
+    "bs": "Junus, a.s., poslan je narodu od sto hiljada ili više. Kada u početku nisu vjerovali, napustio ih je u srdžbi."
+  },
+  "scenes": [
+    {
+      "id": "yunus-s1",
+      "title": { "en": "The ship", "de": "Das Schiff", "bs": "Lađa" },
+      "text": {
+        "en": "Yunus boarded a fully loaded ship. Lots were drawn, and he ended up in the sea, where a big fish swallowed him.",
+        "de": "Yunus bestieg ein voll beladenes Schiff. Es wurde gelost, und er landete im Meer, wo ihn ein großer Fisch verschluckte.",
+        "bs": "Junus se ukrcao na krcatu lađu. Bacana je kocka i on je završio u moru, gdje ga je progutala velika riba."
+      },
+      "scene": { "sky": "storm", "elements": ["rain", "waves", "ark"] },
+      "interactionId": "yunus-next",
+      "sources": [{ "sourceName": "Quran", "sourceReference": "37:139–142" }]
+    },
+    {
+      "id": "yunus-s2",
+      "title": { "en": "In the darkness", "de": "In der Dunkelheit", "bs": "U tami" },
+      "text": {
+        "en": "Inside the fish, in layers of darkness, Yunus called out that there is no god but Allah, glorified Him, and admitted that he had been among the wrongdoers. Allah answered him and saved him from distress – and the Quran says this is how Allah saves the believers.",
+        "de": "Im Inneren des Fisches, in mehreren Dunkelheiten, rief Yunus, dass es keinen Gott außer Allah gibt, pries Ihn und gab zu, zu den Unrechttuenden gehört zu haben. Allah erhörte ihn und rettete ihn aus der Not – und der Koran sagt, dass Allah so die Gläubigen rettet.",
+        "bs": "U utrobi ribe, u tminama, Junus je zavapio da nema boga osim Allaha, veličao Ga i priznao da je bio od onih koji su nepravdu činili. Allah mu se odazvao i spasio ga iz nevolje – a Kur'an kaže da tako Allah spašava vjernike."
+      },
+      "scene": { "sky": "sea", "elements": ["whale"] },
+      "interactionId": "yunus-answered",
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:87–88; 37:143–144" }]
+    },
+    {
+      "id": "yunus-s3",
+      "title": { "en": "The shore", "de": "Das Ufer", "bs": "Obala" },
+      "text": {
+        "en": "The fish cast Yunus onto an open shore while he was weak, and Allah caused a gourd plant to grow over him. Then Yunus was sent back to his people – and they believed.",
+        "de": "Der Fisch warf Yunus geschwächt an ein offenes Ufer, und Allah ließ eine Kürbispflanze über ihm wachsen. Dann wurde Yunus zu seinem Volk zurückgesandt – und sie glaubten.",
+        "bs": "Riba je izbacila Junusa na golu obalu dok je bio slab, a Allah je učinio da nad njim izraste tikva. Zatim je Junus poslan nazad svom narodu – i oni su povjerovali."
+      },
+      "scene": { "sky": "dawn", "elements": ["sea", "palms", "tree"] },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "37:145–148; 10:98" }]
+    }
+  ],
+  "miniGameId": "yunus-find",
+  "quizIds": ["yunus-plant", "yunus-people", "yunus-lesson"],
+  "lessons": [
+    {
+      "id": "yunus-l1",
+      "value": "dua",
+      "title": { "en": "Never lose hope – make dua", "de": "Verliere nie die Hoffnung – mach Du'a", "bs": "Nikad ne gubi nadu – uputi dovu" },
+      "explanation": {
+        "en": "Even in the deepest darkness, Yunus turned to Allah. No situation is too hard for Allah's help.",
+        "de": "Selbst in tiefster Dunkelheit wandte sich Yunus an Allah. Keine Lage ist zu schwer für Allahs Hilfe.",
+        "bs": "Čak i u najdubljoj tami, Junus se obratio Allahu. Nijedna situacija nije preteška za Allahovu pomoć."
+      },
+      "example": {
+        "en": "You feel sad and alone. You talk to Allah in your own words and also tell someone you trust.",
+        "de": "Du fühlst dich traurig und allein. Du sprichst mit Allah in deinen eigenen Worten und erzählst es auch jemandem, dem du vertraust.",
+        "bs": "Osjećaš se tužno i usamljeno. Obratiš se Allahu svojim riječima i kažeš to i nekome kome vjeruješ."
+      },
+      "reflection": {
+        "en": "What would you like to ask Allah for today?",
+        "de": "Worum möchtest du Allah heute bitten?",
+        "bs": "Šta bi danas želio zamoliti od Allaha?"
+      }
+    },
+    {
+      "id": "yunus-l2",
+      "value": "tawbah",
+      "title": { "en": "Admitting mistakes", "de": "Fehler eingestehen", "bs": "Priznati grešku" },
+      "explanation": {
+        "en": "Yunus admitted his mistake to Allah. Saying \"I was wrong\" is a strength, not a weakness.",
+        "de": "Yunus gestand Allah seinen Fehler ein. „Ich lag falsch“ zu sagen ist eine Stärke, keine Schwäche.",
+        "bs": "Junus je Allahu priznao svoju grešku. Reći „pogriješio sam“ je snaga, a ne slabost."
+      },
+      "example": {
+        "en": "You left a group project angry. Later you come back, say sorry and help finish it.",
+        "de": "Du hast ein Gruppenprojekt wütend verlassen. Später kommst du zurück, entschuldigst dich und hilfst, es fertigzustellen.",
+        "bs": "Ljutito si napustio grupni projekat. Kasnije se vratiš, izviniš se i pomogneš da se završi."
+      },
+      "reflection": {
+        "en": "Why is it sometimes hard to say \"I was wrong\"?",
+        "de": "Warum fällt es manchmal schwer, „Ich lag falsch“ zu sagen?",
+        "bs": "Zašto je ponekad teško reći „pogriješio sam“?"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "yunus-next",
+      "type": "multipleChoice",
+      "storyId": "yunus",
+      "topic": "yunus",
+      "prompt": { "en": "Inside the fish, what do you think Yunus did?", "de": "Was denkst du, tat Yunus im Inneren des Fisches?", "bs": "Šta misliš, šta je Junus radio u utrobi ribe?" },
+      "options": [
+        { "id": "a", "text": { "en": "He glorified Allah and admitted his mistake", "de": "Er pries Allah und gab seinen Fehler zu", "bs": "Veličao je Allaha i priznao grešku" } },
+        { "id": "b", "text": { "en": "He complained and gave up", "de": "Er klagte und gab auf", "bs": "Žalio se i predao" } },
+        { "id": "c", "text": { "en": "He slept the whole time", "de": "Er schlief die ganze Zeit", "bs": "Spavao je sve vrijeme" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Yunus called upon Allah, glorified Him and admitted his mistake.",
+        "de": "Yunus rief Allah an, pries Ihn und gab seinen Fehler zu.",
+        "bs": "Junus je zazivao Allaha, veličao Ga i priznao grešku."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:87" }]
+    },
+    {
+      "id": "yunus-answered",
+      "type": "trueFalse",
+      "storyId": "yunus",
+      "topic": "yunus",
+      "prompt": { "en": "Allah answered Yunus' call and saved him from distress.", "de": "Allah erhörte Yunus' Ruf und rettete ihn aus der Not.", "bs": "Allah se odazvao Junusovom vapaju i spasio ga iz nevolje." },
+      "correct": true,
+      "explanation": {
+        "en": "Yes – and the Quran adds that this is how Allah saves the believers.",
+        "de": "Ja – und der Koran fügt hinzu, dass Allah so die Gläubigen rettet.",
+        "bs": "Da – a Kur'an dodaje da tako Allah spašava vjernike."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:88" }]
+    },
+    {
+      "id": "yunus-find",
+      "type": "find",
+      "storyId": "yunus",
+      "topic": "yunus",
+      "prompt": { "en": "Find the three things from the story of Yunus.", "de": "Finde die drei Dinge aus der Geschichte von Yunus.", "bs": "Pronađi tri stvari iz kazivanja o Junusu." },
+      "items": [
+        { "id": "whale", "element": "whale", "label": { "en": "Big fish", "de": "Großer Fisch", "bs": "Velika riba" } },
+        { "id": "fire", "element": "fire", "label": { "en": "Fire", "de": "Feuer", "bs": "Vatra" } },
+        { "id": "sea", "element": "sea", "label": { "en": "The sea", "de": "Das Meer", "bs": "More" } },
+        { "id": "kaaba", "element": "kaaba", "label": { "en": "Kaaba", "de": "Kaaba", "bs": "Kaba" } },
+        { "id": "tree", "element": "tree", "label": { "en": "Plant on the shore", "de": "Pflanze am Ufer", "bs": "Biljka na obali" } },
+        { "id": "grain", "element": "grain", "label": { "en": "Grain", "de": "Getreide", "bs": "Žito" } }
+      ],
+      "correctIds": ["whale", "sea", "tree"],
+      "explanation": {
+        "en": "The big fish, the sea and the plant that grew over Yunus on the shore belong to his story.",
+        "de": "Der große Fisch, das Meer und die Pflanze, die am Ufer über Yunus wuchs, gehören zu seiner Geschichte.",
+        "bs": "Velika riba, more i biljka koja je izrasla nad Junusom na obali pripadaju njegovom kazivanju."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "37:139–146" }]
+    },
+    {
+      "id": "yunus-plant",
+      "type": "multipleChoice",
+      "storyId": "yunus",
+      "topic": "yunus",
+      "prompt": { "en": "What did Allah cause to grow over Yunus on the shore?", "de": "Was ließ Allah am Ufer über Yunus wachsen?", "bs": "Šta je Allah učinio da izraste nad Junusom na obali?" },
+      "options": [
+        { "id": "a", "text": { "en": "A gourd plant", "de": "Eine Kürbispflanze", "bs": "Tikvu" } },
+        { "id": "b", "text": { "en": "An apple tree", "de": "Einen Apfelbaum", "bs": "Jabuku" } },
+        { "id": "c", "text": { "en": "Nothing at all", "de": "Gar nichts", "bs": "Ništa" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Allah caused a gourd plant (yaqtin) to grow over him while he was weak.",
+        "de": "Allah ließ eine Kürbispflanze (Yaqtin) über ihm wachsen, während er schwach war.",
+        "bs": "Allah je učinio da nad njim izraste tikva (jektin) dok je bio slab."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "37:146" }]
+    },
+    {
+      "id": "yunus-people",
+      "type": "trueFalse",
+      "storyId": "yunus",
+      "topic": "yunus",
+      "prompt": { "en": "In the end, the people of Yunus believed.", "de": "Am Ende glaubte das Volk von Yunus.", "bs": "Na kraju je Junusov narod povjerovao." },
+      "correct": true,
+      "explanation": {
+        "en": "Yes – the Quran mentions that his people believed.",
+        "de": "Ja – der Koran erwähnt, dass sein Volk glaubte.",
+        "bs": "Da – Kur'an spominje da je njegov narod povjerovao."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "10:98; 37:148" }]
+    },
+    {
+      "id": "yunus-lesson",
+      "type": "lessonChoice",
+      "storyId": "yunus",
+      "topic": "yunus",
+      "prompt": { "en": "Which lesson does Yunus teach us?", "de": "Welche Lehre lehrt uns Yunus?", "bs": "Koju nas pouku uči Junus?" },
+      "options": [
+        { "id": "a", "text": { "en": "Turn to Allah in every situation and never lose hope", "de": "Sich in jeder Lage an Allah wenden und nie die Hoffnung verlieren", "bs": "Obratiti se Allahu u svakoj situaciji i nikad ne gubiti nadu" } },
+        { "id": "b", "text": { "en": "Run away from every problem", "de": "Vor jedem Problem weglaufen", "bs": "Bježati od svakog problema" } },
+        { "id": "c", "text": { "en": "Dua only helps in easy times", "de": "Du'a hilft nur in leichten Zeiten", "bs": "Dova pomaže samo u lahkim vremenima" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Yunus' dua in the darkness shows that Allah hears us anywhere.",
+        "de": "Yunus' Du'a in der Dunkelheit zeigt, dass Allah uns überall hört.",
+        "bs": "Junusova dova u tami pokazuje da nas Allah čuje svugdje."
+      }
+    }
+  ],
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "21:87–88" },
+    { "sourceName": "Quran", "sourceReference": "37:139–148" },
+    { "sourceName": "Quran", "sourceReference": "68:48–50" },
+    { "sourceName": "Quran", "sourceReference": "10:98" }
+  ]
+}

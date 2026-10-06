@@ -1,0 +1,214 @@
+{
+  "id": "musa",
+  "order": 4,
+  "prophetName": { "en": "Musa", "de": "Musa (Mose)", "bs": "Musa" },
+  "honorific": "alayhis-salam",
+  "title": { "en": "The Journey", "de": "Die Reise", "bs": "Putovanje" },
+  "description": {
+    "en": "A basket on the Nile, a call at Mount Tur and a sea that parts.",
+    "de": "Eine Kiste auf dem Nil, ein Ruf am Berg Tur und ein Meer, das sich teilt.",
+    "bs": "Sanduk na Nilu, poziv na brdu Tur i more koje se razdvaja."
+  },
+  "place": { "en": "Egypt and Sinai", "de": "Ägypten und Sinai", "bs": "Egipat i Sinaj" },
+  "symbol": "partedSea",
+  "cover": { "sky": "night", "elements": ["stars", "partedSea"] },
+  "intro": {
+    "en": "In Egypt, Fir'awn (Pharaoh) was a tyrant who oppressed the Children of Israel. In those days a baby was born: Musa (peace be upon him).",
+    "de": "In Ägypten war Pharao ein Tyrann, der die Kinder Israels unterdrückte. In jener Zeit wurde ein Baby geboren: Musa (Friede sei mit ihm).",
+    "bs": "U Egiptu je faraon bio silnik koji je tlačio sinove Israilove. U to vrijeme rodila se jedna beba: Musa, a.s."
+  },
+  "scenes": [
+    {
+      "id": "musa-s1",
+      "title": { "en": "A basket on the river", "de": "Eine Kiste auf dem Fluss", "bs": "Sanduk na rijeci" },
+      "text": {
+        "en": "Musa's mother was afraid for her baby. Allah inspired her to nurse him and, if she feared for him, to place him in the river – and not to be sad, because Allah would return him to her.",
+        "de": "Musas Mutter hatte Angst um ihr Baby. Allah gab ihr ein, es zu stillen und es, wenn sie um es fürchtete, auf den Fluss zu setzen – und nicht traurig zu sein, denn Allah würde es ihr zurückgeben.",
+        "bs": "Musaova majka se bojala za svoje dijete. Allah ju je nadahnuo da ga doji, a ako se bude bojala za njega, da ga spusti u rijeku – i da ne tuguje, jer će joj ga Allah vratiti."
+      },
+      "scene": { "sky": "day", "elements": ["sun", "river", "palms", "basket"] },
+      "interactionId": "musa-next",
+      "sources": [{ "sourceName": "Quran", "sourceReference": "28:7" }]
+    },
+    {
+      "id": "musa-s2",
+      "title": { "en": "Home again – and a calling", "de": "Wieder zu Hause – und eine Berufung", "bs": "Ponovo kod kuće – i poziv" },
+      "text": {
+        "en": "The chest reached Fir'awn's household, and they took the baby in. Allah returned Musa to his mother so that she could nurse him and be comforted. Years later, at Mount Tur, Allah spoke to Musa and chose him as a messenger, with his brother Harun as his helper.",
+        "de": "Die Kiste erreichte das Haus des Pharao, und man nahm das Baby auf. Allah gab Musa seiner Mutter zurück, damit sie ihn stillen konnte und getröstet war. Jahre später sprach Allah am Berg Tur zu Musa und erwählte ihn zum Gesandten, mit seinem Bruder Harun als Helfer.",
+        "bs": "Sanduk je stigao do faraonove porodice i oni su uzeli dijete. Allah je vratio Musaa majci da ga doji i da se smiri. Godinama kasnije, na brdu Tur, Allah je govorio Musau i odabrao ga za poslanika, a brata Haruna za pomagača."
+      },
+      "scene": { "sky": "dusk", "elements": ["stars", "mountains", "fire"] },
+      "interactionId": "musa-map",
+      "sources": [{ "sourceName": "Quran", "sourceReference": "28:8–13; 20:9–36" }]
+    },
+    {
+      "id": "musa-s3",
+      "title": { "en": "The sea parts", "de": "Das Meer teilt sich", "bs": "More se razdvaja" },
+      "text": {
+        "en": "Musa called Fir'awn to believe in Allah and to let the Children of Israel go, but Fir'awn refused. Musa left with the believers at night. At the sea, with Fir'awn's army behind them, Musa said that his Lord was with him and would guide him. Allah told him to strike the sea with his staff – and the sea parted. The believers crossed safely.",
+        "de": "Musa rief Pharao auf, an Allah zu glauben und die Kinder Israels ziehen zu lassen, doch Pharao weigerte sich. Musa zog nachts mit den Gläubigen fort. Am Meer, das Heer des Pharao hinter sich, sagte Musa, dass sein Herr mit ihm sei und ihn leiten werde. Allah befahl ihm, mit seinem Stab auf das Meer zu schlagen – und das Meer teilte sich. Die Gläubigen zogen sicher hindurch.",
+        "bs": "Musa je pozvao faraona da vjeruje u Allaha i pusti sinove Israilove, ali je faraon odbio. Musa je noću krenuo s vjernicima. Kod mora, s faraonovom vojskom iza sebe, Musa je rekao da je njegov Gospodar s njim i da će ga uputiti. Allah mu je naredio da udari more štapom – i more se razdvojilo. Vjernici su sigurno prešli."
+      },
+      "scene": { "sky": "night", "elements": ["stars", "partedSea"] },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "26:16–66" }]
+    }
+  ],
+  "miniGameId": "musa-timeline",
+  "quizIds": ["musa-sea", "musa-harun", "musa-lesson"],
+  "lessons": [
+    {
+      "id": "musa-l1",
+      "value": "tawakkul",
+      "title": { "en": "Tawakkul – trust in Allah", "de": "Tawakkul – Vertrauen auf Allah", "bs": "Tevekkul – oslonac na Allaha" },
+      "explanation": {
+        "en": "Musa's mother trusted Allah when she placed her baby on the river. At the sea Musa trusted that Allah would guide him. Tawakkul means doing our part and trusting Allah with the result.",
+        "de": "Musas Mutter vertraute Allah, als sie ihr Baby auf den Fluss setzte. Am Meer vertraute Musa darauf, dass Allah ihn leiten würde. Tawakkul heißt, unseren Teil zu tun und Allah das Ergebnis anzuvertrauen.",
+        "bs": "Musaova majka se oslonila na Allaha kada je spustila dijete u rijeku. Kod mora Musa je vjerovao da će ga Allah uputiti. Tevekkul znači uraditi svoj dio i prepustiti ishod Allahu."
+      },
+      "example": {
+        "en": "Before an exam you study well, make dua and then stay calm, trusting Allah.",
+        "de": "Vor einer Prüfung lernst du gut, machst Du'a und bleibst dann ruhig, im Vertrauen auf Allah.",
+        "bs": "Prije ispita dobro učiš, uputiš dovu, a onda ostaješ miran, oslanjajući se na Allaha."
+      },
+      "reflection": {
+        "en": "What worries you at the moment – and how can you trust Allah with it?",
+        "de": "Was macht dir gerade Sorgen – und wie kannst du es Allah anvertrauen?",
+        "bs": "Šta te trenutno brine – i kako to možeš prepustiti Allahu?"
+      }
+    },
+    {
+      "id": "musa-l2",
+      "value": "justice",
+      "title": { "en": "Standing up against injustice", "de": "Gegen Ungerechtigkeit aufstehen", "bs": "Ustati protiv nepravde" },
+      "explanation": {
+        "en": "Musa and Harun went to a powerful tyrant and called him to justice. Muslims speak up for what is right – wisely and with good words.",
+        "de": "Musa und Harun gingen zu einem mächtigen Tyrannen und riefen ihn zur Gerechtigkeit auf. Muslime setzen sich für das Richtige ein – klug und mit guten Worten.",
+        "bs": "Musa i Harun otišli su moćnom silniku i pozvali ga pravdi. Muslimani se zalažu za ispravno – mudro i lijepim riječima."
+      },
+      "example": {
+        "en": "Someone is being bullied. You stand by them and tell a teacher.",
+        "de": "Jemand wird gemobbt. Du stellst dich an seine Seite und sagst es einer Lehrkraft.",
+        "bs": "Nekoga zlostavljaju. Staneš uz njega i kažeš učitelju."
+      },
+      "reflection": {
+        "en": "Who could you help today by standing at their side?",
+        "de": "Wem könntest du heute helfen, indem du an seiner Seite stehst?",
+        "bs": "Kome bi danas mogao pomoći tako što ćeš stati uz njega?"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "musa-next",
+      "type": "multipleChoice",
+      "storyId": "musa",
+      "topic": "musa",
+      "prompt": { "en": "What do you think Musa's mother did?", "de": "Was denkst du, tat Musas Mutter?", "bs": "Šta misliš, šta je uradila Musaova majka?" },
+      "options": [
+        { "id": "a", "text": { "en": "She placed him in a chest on the river, trusting Allah", "de": "Sie legte ihn in einer Kiste auf den Fluss und vertraute Allah", "bs": "Stavila ga je u sanduk na rijeku, oslanjajući se na Allaha" } },
+        { "id": "b", "text": { "en": "She hid him in a cave", "de": "Sie versteckte ihn in einer Höhle", "bs": "Sakrila ga je u pećinu" } },
+        { "id": "c", "text": { "en": "She took him to the desert", "de": "Sie brachte ihn in die Wüste", "bs": "Odnijela ga je u pustinju" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Allah inspired her to place him in the river and promised to return him to her.",
+        "de": "Allah gab ihr ein, ihn auf den Fluss zu setzen, und versprach, ihn ihr zurückzugeben.",
+        "bs": "Allah ju je nadahnuo da ga spusti u rijeku i obećao da će joj ga vratiti."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "28:7" }]
+    },
+    {
+      "id": "musa-map",
+      "type": "map",
+      "storyId": "musa",
+      "topic": "musa",
+      "prompt": { "en": "In which land did Musa grow up? Tap it on the map.", "de": "In welchem Land wuchs Musa auf? Tippe es auf der Karte an.", "bs": "U kojoj je zemlji Musa odrastao? Dodirni je na mapi." },
+      "places": ["egypt", "makkah", "mesopotamia", "madinah"],
+      "correctPlace": "egypt",
+      "explanation": {
+        "en": "Musa grew up in Egypt, in the household of Fir'awn, by the river Nile.",
+        "de": "Musa wuchs in Ägypten auf, im Haus des Pharao, am Nil.",
+        "bs": "Musa je odrastao u Egiptu, u faraonovoj kući, pored rijeke Nil."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "28:8–9" }]
+    },
+    {
+      "id": "musa-timeline",
+      "type": "ordering",
+      "timeline": true,
+      "storyId": "musa",
+      "topic": "musa",
+      "prompt": { "en": "Timeline: put Musa's journey in order.", "de": "Zeitleiste: Bringe Musas Reise in die richtige Reihenfolge.", "bs": "Vremenska linija: poredaj Musaovo putovanje." },
+      "items": [
+        { "id": "river", "text": { "en": "Placed on the river", "de": "Auf den Fluss gesetzt", "bs": "Spušten u rijeku" } },
+        { "id": "mother", "text": { "en": "Returned to his mother", "de": "Zur Mutter zurückgebracht", "bs": "Vraćen majci" } },
+        { "id": "tur", "text": { "en": "Called at Mount Tur", "de": "Am Berg Tur berufen", "bs": "Pozvan na brdu Tur" } },
+        { "id": "firawn", "text": { "en": "Calls Fir'awn to believe", "de": "Ruft Pharao zum Glauben auf", "bs": "Poziva faraona u vjeru" } },
+        { "id": "sea", "text": { "en": "The sea parts", "de": "Das Meer teilt sich", "bs": "More se razdvaja" } }
+      ],
+      "explanation": {
+        "en": "River, mother, Mount Tur, Fir'awn – and finally the parting of the sea.",
+        "de": "Fluss, Mutter, Berg Tur, Pharao – und schließlich die Teilung des Meeres.",
+        "bs": "Rijeka, majka, brdo Tur, faraon – i na kraju razdvajanje mora."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "28:7–13; 20:9–36; 26:10–66" }]
+    },
+    {
+      "id": "musa-sea",
+      "type": "multipleChoice",
+      "storyId": "musa",
+      "topic": "musa",
+      "prompt": { "en": "What happened when Musa struck the sea with his staff?", "de": "Was geschah, als Musa mit seinem Stab auf das Meer schlug?", "bs": "Šta se desilo kada je Musa udario more štapom?" },
+      "options": [
+        { "id": "a", "text": { "en": "It parted, each part like a great mountain", "de": "Es teilte sich, jeder Teil wie ein gewaltiger Berg", "bs": "Razdvojilo se, svaki dio kao golemo brdo" } },
+        { "id": "b", "text": { "en": "It froze", "de": "Es gefror", "bs": "Zaledilo se" } },
+        { "id": "c", "text": { "en": "Nothing happened", "de": "Nichts geschah", "bs": "Ništa se nije desilo" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "By Allah's command the sea parted, and Allah saved Musa and those with him.",
+        "de": "Auf Allahs Befehl teilte sich das Meer, und Allah rettete Musa und die, die mit ihm waren.",
+        "bs": "Po Allahovoj naredbi more se razdvojilo, i Allah je spasio Musaa i one s njim."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "26:63–65" }]
+    },
+    {
+      "id": "musa-harun",
+      "type": "trueFalse",
+      "storyId": "musa",
+      "topic": "musa",
+      "prompt": { "en": "Musa asked Allah to make his brother Harun his helper.", "de": "Musa bat Allah, seinen Bruder Harun zu seinem Helfer zu machen.", "bs": "Musa je zamolio Allaha da mu brat Harun bude pomagač." },
+      "correct": true,
+      "explanation": {
+        "en": "Yes – Allah granted his request.",
+        "de": "Ja – Allah erfüllte seine Bitte.",
+        "bs": "Da – Allah mu je ispunio molbu."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "20:29–36" }]
+    },
+    {
+      "id": "musa-lesson",
+      "type": "lessonChoice",
+      "storyId": "musa",
+      "topic": "musa",
+      "prompt": { "en": "Which lesson does the parted sea teach us?", "de": "Welche Lehre lehrt uns das geteilte Meer?", "bs": "Koju nas pouku uči razdvojeno more?" },
+      "options": [
+        { "id": "a", "text": { "en": "Trust Allah, even when things look impossible", "de": "Allah vertrauen, auch wenn etwas unmöglich scheint", "bs": "Osloni se na Allaha, čak i kad nešto izgleda nemoguće" } },
+        { "id": "b", "text": { "en": "Panic when you are afraid", "de": "In Panik geraten, wenn man Angst hat", "bs": "Paničiti kad se bojiš" } },
+        { "id": "c", "text": { "en": "Strong armies always win", "de": "Starke Armeen gewinnen immer", "bs": "Jake vojske uvijek pobjeđuju" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Musa trusted Allah at the sea – and Allah made a way where there seemed to be none.",
+        "de": "Musa vertraute Allah am Meer – und Allah schuf einen Weg, wo keiner zu sein schien.",
+        "bs": "Musa se kod mora oslonio na Allaha – i Allah je otvorio put gdje se činilo da ga nema."
+      }
+    }
+  ],
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "28:3–13" },
+    { "sourceName": "Quran", "sourceReference": "20:9–79" },
+    { "sourceName": "Quran", "sourceReference": "26:10–68" }
+  ]
+}
