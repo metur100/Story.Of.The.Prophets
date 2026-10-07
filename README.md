@@ -1,5 +1,7 @@
 # Story of the Prophets
 
+**Website:** https://metur100.github.io/islam-apps/en/story-of-the-prophets/ · **Privacy policy:** https://metur100.github.io/islam-apps/en/story-of-the-prophets/privacy/
+
 An interactive Islamic storybook game that teaches children the stories of the prophets as told in the Quran — through scenes, choices, mini games and reflection.
 
 - Free: no ads, no purchases, no subscriptions, no accounts
