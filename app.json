@@ -10,7 +10,10 @@
     "backgroundColor": "#14173A",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.certidevelopment.storyoftheprophets"
+      "bundleIdentifier": "com.certidevelopment.storyoftheprophets",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.certidevelopment.storyoftheprophets",
@@ -42,7 +45,8 @@
         "expo-audio",
         {
           "recordAudioAndroid": false,
-          "enableBackgroundPlayback": false
+          "enableBackgroundPlayback": false,
+          "microphonePermission": false
         }
       ],
       [
