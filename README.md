@@ -67,11 +67,23 @@ Android release build:
 
 ```bash
 npx expo prebuild --platform android
-cd android && ./gradlew assembleRelease
-# → android/app/build/outputs/apk/release/app-release.apk
+cd android && ./gradlew bundleRelease assembleRelease
+# → android/app/build/outputs/bundle/release/app-release.aab  (Google Play)
+# → android/app/build/outputs/apk/release/app-release.apk  (direct install)
 ```
 
-Release builds use the debug keystore until you configure your own upload key (or use `eas build`). `plugins/withStableAndroidBuild.js` makes local Gradle builds reliable on Windows (in-process Kotlin compilation).
+Release builds are signed with the upload key configured in `~/.gradle/gradle.properties` (see `plugins/withReleaseSigning.js`):
+
+```properties
+STORY_OF_THE_PROPHETS_UPLOAD_STORE_FILE=C:/path/to/keystore
+STORY_OF_THE_PROPHETS_UPLOAD_STORE_PASSWORD=…
+STORY_OF_THE_PROPHETS_UPLOAD_KEY_ALIAS=…
+STORY_OF_THE_PROPHETS_UPLOAD_KEY_PASSWORD=…
+```
+
+Without these properties the build falls back to the debug key (fine for testing). The keystore and passwords are never committed.
+
+`plugins/withStableAndroidBuild.js` makes local Gradle builds reliable on Windows (in-process Kotlin compilation).
 
 ## Privacy
 
