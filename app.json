@@ -10,10 +10,10 @@
     "backgroundColor": "#14173A",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.storyoftheprophets.app"
+      "bundleIdentifier": "com.certidevelopment.storyoftheprophets"
     },
     "android": {
-      "package": "com.storyoftheprophets.app",
+      "package": "com.certidevelopment.storyoftheprophets",
       "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#14173A",
@@ -55,7 +55,8 @@
         }
       ],
       "expo-status-bar",
-      "./plugins/withStableAndroidBuild"
+      "./plugins/withStableAndroidBuild",
+      "./plugins/withReleaseSigning"
     ],
     "experiments": {
       "typedRoutes": true
